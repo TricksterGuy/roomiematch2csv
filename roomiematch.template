@@ -1,0 +1,216 @@
+${date}
+
+Hi there, ${you}.
+Please allow us to introduce ${roommate}\.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\* ${roommate}'s IP Address Actual Current Location Analysis:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-->  ${location}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\* YOU vs. ${roommate}  --- the 5 Roommate Behavior Rating factors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How do you keep HOUSE?
+-->  ${house}% roommate match
+
+How do you keep COMPANY?
+-->  ${company}% roommate match
+
+How do you keep YOUR END?
+-->  ${finance}% roommate match
+
+How do you keep YOURSELF?
+-->  ${yourself}% roommate match
+
+How do you keep yourself BUSY?
+-->  ${busy}% roommate match
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\* YOU vs. ${roommate}  --- the overall situation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-->  ${overall}% roommate match
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\* ${roommate}'s freetext Q and A section:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\(Q: Why are you looking for a roommate now?\)
+-->  ${ml_whyroomate}
+
+\(Q: What do you like to do in your free time?\)
+-->  ${ml_freetime}
+
+\(Q: What do you do for a living?\)
+-->  ${ml_living}
+
+\(Q: Are you extra sensitive to anything\?\)
+-->  ${ml_sensitive}
+
+\(Q: Anything NOT in the questionnaire, but important about you\?\)
+-->  ${ml_other}
+
+\(Q: Did you have a conflict with a previous roommate\\?\)
+-->  ${ml_conflict}
+
+\(Q: What might be your ideal roommate situation\?\)
+-->  ${ml_ideally}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\* ${roommate}'s CONTACT INFORMATION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\(Don't miss the section after ${roommate}'s entire interview
+for all YOUR answers to all the questions,
+along with your customized comparisons.
+
+This section makes it very easy to contact ${roommate}, if you'd like\.
+You can just forward it along to ${roommate} as your detailed introduction,
+complete with compatibility already outlined.
+Or NOT, your choice\.
+\(You can always introduce yourself starting from scratch, if you'd rather\.\)\)
+
+Name:  ${roommate_fullname}
+Email Address:  ${roommate_email}
+Phone \(if provided\):  ${roommate_number}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\* ${roommate}'s entire interview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(You could probably make a decision
+based on the summary info and freetext above.
+But to whatever extent you like,
+you can also review the rest of ${roommate}'s interview below.\)
+
+${roommate} is looking for . . .
+-->  ${ml_lookingfor}
+
+${roommate} would like to live in or near:
+-->  ${locationpref}
+
+Maximum rent ${roommate} can pay\?
+-->  ${rentpref}
+
+Length of stay preferred\?
+-->  ${lengthpref}
+
+Is ${roommate} currently near where they'd like to live\?
+-->  ${ml_neararea}
+
+\* ${roommate}'s ADDITIONAL MATCHING RESTRICTIONS
+
+${roommate} is:
+-->  ${whoroommateis}
+
+${roommate} prefers roommate\(s\) that are:
+-->  ${genderpref}
+
+${roommate}'s sexual orientation\(s\)\?
+-->  ${sexualorientation}
+
+${roommate} prefers roommate\(s\) that are:
+-->  ${orientationpref}
+
+How old is ${roommate}  in calendar years\?
+-->  ${roommate_age}
+
+${roommate} prefers roommate\(s\) that are:
+-->  ${agepref}
+
+Pets\?
+-->  ${petpref}
+
+Tobacco smoking\?
+-->  ${smokerpref}
+
+\* ${roommate}, how do you keep HOUSE\?
+
+How often do you do your dishes\?
+-->  ${doesdishes}
+
+How long does your takeout stay in the fridge\?
+-->  ${takeout}
+
+Recycling?
+-->  ${recycling}
+
+Personal items left in common areas shall be . . .
+-->  ${leftoutitems}
+
+Common area household cleaning\?
+-->  ${cleaning}
+
+\* ${roommate}, how do you keep COMPANY\?
+
+Where are you social\?
+-->  ${social}
+
+Household noise\?
+-->  ${noisepref}
+
+How often should 'significant others' stay the night\?
+-->  ${sopref}
+
+Roommate's potential promiscuity / 'one night stands'\?
+-->  ${onspref}
+
+Your attitude toward out-of-town friends staying over\?
+-->  ${overnightguestspref}
+
+Family members stopping by\?
+-->  ${familymembervists}
+
+\* ${roommate}, how do you keep YOUR END\?
+
+Your attitude toward money\?
+-->  ${moneyusage}
+
+What household consumables would you like to share\\?
+-->  ${shareconsumables}
+
+Personal security issues\?
+-->  ${security}
+
+Home furnishings\?
+-->  ${treatsthings}
+
+Borrowing stuff\?
+-->  ${borrowing}
+
+\* ${roommate}, how do you keep YOURSELF\?
+
+Household clothing preferences\?
+-->  ${clothingprefs}
+
+Consumption of alcohol and/or recreational drugs\?
+-->  ${alcoholcomsumption}
+
+Dietary habits\?
+-->  ${dietary}
+
+Personal grooming habits\?
+-->  ${grooming}
+
+\* ${roommate}, how do you keep BUSY\?
+
+TV\?
+-->  ${tvpref}
+
+Educational level\?
+-->  ${education}
+
+Criminal activity\?
+-->  ${criminalactivity}
+
+Personal cosmologies\?
+-->  ${religion}
+
+What does ${roommate} usually wear on weekdays\?
+-->  ${dress}
+
+Political outlook\?
+-->  ${politics}
